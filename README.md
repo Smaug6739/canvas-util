@@ -9,13 +9,13 @@ Import the module :
 CommonJS syntax :
 
 ```javascript
-const { CanvasUtil } = require("canvas-util");
+const { CanvasUtil } = require("canvas-util.js");
 ```
 
 EcmaScript syntax :
 
 ```javascript
-import { CanvasUtil } from "canvas-util";
+import { CanvasUtil } from "canvas-util.js";
 ```
 
 Create a new canvas with the width and height as a parameters (default 930x280 pixels) :

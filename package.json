@@ -1,8 +1,11 @@
 {
-  "name": "canvas-util",
+  "name": "canvas-util.js",
   "version": "0.6.0",
   "description": "A canvas functions for simplify the use of canvas",
   "main": "dist/index.js",
+  "publishConfig": {
+    "acccess": "public"
+  },
   "scripts": {
     "build": "tsc",
     "build:typings": "tsc --build tsconfig.typings.json",
