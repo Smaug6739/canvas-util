@@ -1,0 +1,33 @@
+{
+  "name": "canvas-util",
+  "version": "1.0.0",
+  "description": "A canvas functions for simplify the use of canvas",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "build:typings": "tsc --build tsconfig.typings.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Smaug6739/canvas-util.git"
+  },
+  "keywords": [
+    "canvas",
+    "util",
+    "images",
+    "image-manipulation"
+  ],
+  "author": "Smaug6739",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Smaug6739/canvas-util/issues"
+  },
+  "homepage": "https://github.com/Smaug6739/canvas-util#readme",
+  "dependencies": {
+    "canvas": "^2.8.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.6"
+  }
+}
