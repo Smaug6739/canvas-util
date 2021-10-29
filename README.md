@@ -33,6 +33,10 @@ Params :
 - type - The type of the background ("IMAGE" or "COLOR" : String).
 - value - The value of the background (String for COLOR and Buffer or String for Image).
 
+```js
+canvas.setBackground("COLOR", "blue");
+```
+
 ### CanvasUtil#setFont(name, size)
 
 Set a font and size of text.
@@ -42,6 +46,10 @@ Params :
 - name - The name of the font (string).
 - size - The size of the font (number).
 
+```js
+canvas.setFont("Arial", 12);
+```
+
 ### CanvasUtil#setTransparancy(transparancy)
 
 Set a font and size of text.
@@ -49,6 +57,10 @@ Set a font and size of text.
 Params :
 
 - transparancy - The value of the transparancy (number).
+
+```js
+canvas.setTransparancy(0.4);
+```
 
 ### CanvasUtil#addText(text, color, x, y)
 
@@ -61,6 +73,10 @@ Params :
 - x - The x axis offset (number).
 - y - The y axis offset (number).
 
+```js
+canvas.addText("Hello World", "#ffffff", 200, 200);
+```
+
 ### CanvasUtil#addImage(img, x, y, px, py)
 
 Add an image to the canvas.
@@ -72,6 +88,10 @@ Params :
 - y - The y axis offset (number).
 - sx - The x axis size (number).
 - sy - The y axis size (number).
+
+```js
+canvas.addImage("https://website.com/image.png", 200, 200, 200, 150);
+```
 
 ### CanvasUtil#addCircularImage(img, x, y, px, py)
 
@@ -86,6 +106,14 @@ Params :
 - sx - The x axis size (number).
 - sy - The y axis size (number).
 
+```js
+canvas.addImage("https://website.com/image.png", 200, 200, 150, 150);
+```
+
 ### CanvasUtil#build()
 
 Build the canvas and return a buffer of the image.
+
+```js
+canvas.build();
+```
