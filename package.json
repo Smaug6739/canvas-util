@@ -1,6 +1,6 @@
 {
   "name": "canvas-util",
-  "version": "1.0.0",
+  "version": "0.6.0",
   "description": "A canvas functions for simplify the use of canvas",
   "main": "dist/index.js",
   "scripts": {
