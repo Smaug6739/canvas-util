@@ -107,7 +107,7 @@ Params :
 - sy - The y axis size (number).
 
 ```js
-canvas.addImage("https://website.com/image.png", 200, 200, 150, 150);
+canvas.addCircularImage("https://website.com/image.png", 200, 200, 150, 150);
 ```
 
 ### CanvasUtil#build()
